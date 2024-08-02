@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/startFramework",
+    "/startFramework/About",
+    "/startFramework/Contact",
+    "/startFramework/gallary",
+    "/startFramework/Portfolio"
+  ]
+}

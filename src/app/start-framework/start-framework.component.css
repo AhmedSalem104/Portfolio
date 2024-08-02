@@ -1,0 +1,38 @@
+section{
+    background-color: #1ABC9C;
+    height: 600px;
+    width: 100%;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+h3 {
+    font-family: sans-serif;
+    color: #fffb00;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+  h3:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #ffffff;
+    left: 60px;
+    top: 50%;
+    position: absolute;
+  }
+  h3:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #ffffff;
+    right: 60px;
+    top: 50%;
+    position: absolute;
+  }
