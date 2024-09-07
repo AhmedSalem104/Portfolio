@@ -7,7 +7,7 @@ import { GallaryComponent } from './gallary/gallary.component';
 import { NotfoundedComponent } from './notfounded/notfounded.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'startFramework', pathMatch: 'full' },
+    { path: '', redirectTo: 'startFramework/About', pathMatch: 'full' },
     { path: 'startFramework', component: StartFrameworkComponent,title:'StartFramework'},
     { path: 'startFramework/About', component: ABoutComponent ,title:'About'},
     { path: 'startFramework/Portfolio', component: PortfolioComponent ,title:'Portfolio'},
